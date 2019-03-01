@@ -23,5 +23,8 @@
   "homepage": "https://github.com/qinlue/ri-gulu#readme",
   "dependencies": {
     "vue": "^2.6.7"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
   }
 }
