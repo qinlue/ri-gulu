@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/qinlue/ri-gulu/issues"
   },
-  "homepage": "https://github.com/qinlue/ri-gulu#readme"
+  "homepage": "https://github.com/qinlue/ri-gulu#readme",
+  "dependencies": {
+    "vue": "^2.6.7"
+  }
 }
