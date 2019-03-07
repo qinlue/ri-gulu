@@ -20,36 +20,10 @@
         --border-color-active: pink;
     }
 </style>
-<style>
-.rj-button{
-    font-size: var(--font-size);
-    height: var(--buttonheight);
-    padding: 0 1em;
-    border-radius: var(border-radius);
-    border: 1px solid var(border-color);
-    background: var(button-bg);
-}
-.rj-button:hover{
-    border-color: var(--border-color-hover);
-}
-.rj-button:active {
-    background-color: var(--border-color-active)
-}
-</style>
 <body>
     <div id="app">
-        <rj-button class="rj-button"></rj-button>
     </div>
-    <script src="./node_modules/vue/dist/vue.min.js"></script>
-    <script src="./button.js"></script>
-    <script>
-        new Vue({
-            el: '#app',
-            data: {
-                meg: 'hi'
-            }
-        })
-    </script>
+    <script src="./src/app.js"></script>
 </body>
 
 </html>
